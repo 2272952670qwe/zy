@@ -2,7 +2,7 @@ body {
   font-size: 12pt;
   font-family: Times, "Times New Roman", serif;
   line-height: 1.4em;
-  margin: 10px 40px 10px 40px;
+  margin: 10px 40px;
   width: 700px;
 }
 
@@ -19,7 +19,7 @@ h2 {
 }
 
 #guarantee {
-  padding: 25px 25px 25px 25px;
+  padding: 25px;
   border: thin solid black;
   margin-right: 240px;
   margin-left: 30px;
@@ -34,7 +34,7 @@ h2 {
   width: 200px;
   background-color: #ffffff;
   background: url("images/elixirbackground.gif") repeat-x top center;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 20px 20px;
   margin-left: 25px;
   color: #000000;
   border: thin double #007e7e;
@@ -111,8 +111,6 @@ body{
   border-style:        dashed;
   background-color:    #a7cece;
   padding:             25px; /* 新增内边距 */
-}
-.guarantee {
   border-color:        white;
   border-width:        1px;
   border-style:        dashed;
@@ -156,4 +154,34 @@ div h2 {
 
 .elixirs h3{
   color: #d12c47;
+}
+.cd{
+    font-style: italic;
+}
+.artist{
+    font-weight: bold;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: yellow;
+}
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
 }
