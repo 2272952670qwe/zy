@@ -1,0 +1,20 @@
+.component-header_title__n0SA_ {
+    margin-bottom: 0;
+}
+
+h2, h3 {
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: var(--textsize-xl);
+}
+
+h1, h2, h3 {
+    margin-bottom: var(--spacing-micro);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+}
