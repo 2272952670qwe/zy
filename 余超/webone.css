@@ -393,4 +393,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
+.component-header_title__n0SA_{
+    font-size: 36px;
+}
 
+body {
+    --met-sans: var(--met-sans-serif), var(--noto-sans-cy), var(--noto-sans-jp), var(--noto-sans-kr), var(--noto-sans-sc);
+}

@@ -1,16 +1,18 @@
-.email-signup_homepage-email__CgW18 {
-    background-color: var(--color-met-red);
-    color: var(--color-white);
-    width: 100%;
-}
-
-@media only screen and (min-width: 960px) {
-    section {
-        scroll-margin-top: 20px;
+@media screen and (min-width: 834px) {
+    .global-footer {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
-section {
-    scroll-margin-top: 80px;
+.global-footer {
+    background-color: var(--color-white);
+    border-top: 1px solid var(--color-grey-200);
+    color: var(--color-black);
+    display: grid;
+    font-family: var(--met-sans);
+    font-size: var(--textsize-xs);
+    grid-template-columns: repeat(1, 1fr);
+    line-height: 1.33333;
+    margin: 0 auto;
 }
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
     border: 0;
@@ -27,7 +29,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     box-sizing: border-box;
 }
 用户代理样式表
-section {
+footer {
     display: block;
     unicode-bidi: isolate;
 }
@@ -154,158 +156,21 @@ body {
     --met-sans-serif: "__metSans_abf3df", "__metSans_Fallback_abf3df";
 }
 
-form {
-    display: block;
-    margin-top: 0em;
-    unicode-bidi: isolate;
-}
-
-.email-signup_wrapper__Gfibu {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: var(--productive-width-max);
-    padding-top: 40px;
-}
-
-div {
-    display: block;
-    unicode-bidi: isolate;
-}
-
-@media screen and (min-width: 960px) {
-    .email-signup_label__JK8Pa {
-        width: auto;
+@media screen and (min-width: 834px) {
+    .global-footer__locations {
+        grid-row: span 2;
     }
 }
-
-.email-signup_label__JK8Pa {
-    color: var(--color-white);
-    display: flex;
-    width: 100%;
+.global-footer__locations {
+    border-bottom: 1px solid var(--color-grey-200);
+    grid-column: span 1;
+    padding: var(--spacing-xs) var(--spacing-component-margin);
 }
-
-@media screen and (min-width: 960px) {
-    .email-signup_title__Pc1YD {
-        flex-basis: auto;
-        font-size: 36px;
-        font-weight: 300;
-        margin-bottom: 26px;
-        text-align: left;
+@media only screen and (min-width: 960px) {
+    section {
+        scroll-margin-top: 20px;
     }
 }
-.email-signup_title__Pc1YD {
-    font-size: var(--textsize-l);
-    font-weight: 500;
-    line-height: 1.1;
-    background-color: var(--color-met-red);
-    color: var(--color-white);
-    flex-basis: 100%;
-    margin-bottom: 10px;
-    text-align: center;
+section {
+    scroll-margin-top: 80px;
 }
-h1 {
-    font-size: var(--textsize-xxl);
-    font-weight: 600;
-    line-height: 1.1;
-}
-h1, h2, h3 {
-    margin-bottom: var(--spacing-micro);
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: inherit;
-}
-
-.email-signup_input-wrapper__H3rWU {
-    margin-bottom: 10px;
-    position: relative;
-}
-
-@media screen and (min-width: 960px) {
-    .email-signup_form-fields__2wGQ_ {
-        align-self: auto;
-        flex-grow: 1;
-        margin: 0 10px;
-        min-height: none;
-        padding-left: 40px;
-    }
-}
-@media screen and (min-width: 500px) {
-    .email-signup_form-fields__2wGQ_ {
-        align-self: center;
-        max-width: 550px;
-    }
-}
-.email-signup_form-fields__2wGQ_ {
-    align-self: auto;
-    color: var(--color-text);
-    flex-grow: 1;
-    margin: 0 auto 40px;
-    min-height: 65px;
-}
-
-.email-signup_input-wrapper__H3rWU {
-    margin-bottom: 10px;
-    position: relative;
-}
-
-.email-signup_input-wrapper__H3rWU input {
-    font-size: 16px;
-    padding-right: 40px;
-    text-overflow: ellipsis;
-    width: 100%;
-}
-input[type=email], input[type=text] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-input {
-    accent-color: var(--color-text);
-    border: 1px solid var(--color-white);
-    border-radius: 4px;
-    padding: 10px;
-    transition: all .3s;
-}
-
-.email-signup_submit__NvYEd {
-    background-color: transparent;
-    border: 0;
-    cursor: pointer;
-    height: 38px;
-    outline: none;
-    position: absolute;
-    right: 1px;
-    top: 1px;
-    transition: all .3s;
-    width: 38px;
-}
-a, button, input {
-    font-family: inherit;
-}
-.button, button {
-    align-items: center;
-    background: transparent;
-    border: 0;
-    border-radius: 4px;
-    color: currentcolor;
-    display: inline-flex;
-    font-family: var(--met-sans);
-    font-size: 1em;
-    font-weight: 500;
-    justify-content: center;
-    line-height: 1.333;
-    padding: 0;
-}
-
-@media screen and (min-width: 960px) {
-    .email-signup_label__JK8Pa {
-        width: auto;
-        height: 100px;
-        margin-right: 300px;
-        float: left;
-    }
-}
-
