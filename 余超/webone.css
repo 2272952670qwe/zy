@@ -35,16 +35,14 @@ body {
     background: var(--color-site-background);
     font-family: var(--met-sans);
     -webkit-font-smoothing: antialiased;
+    overflow-y: visible;
 }
 body {
     color: var(--color-text);
-    font-size: var(--textsize-s);
     font-weight: 400;
     line-height: 1.5555;
 }
-body {
-    line-height: 1;
-}
+
 :root {
     --spacing-micro: calc(8px + 0.25vw);
     --spacing-xxs: calc(16px + 0.5vw);
@@ -234,7 +232,6 @@ p {
     gap: var(--spacing-xxs);
     justify-content: flex-start;
     margin-bottom: var(--spacing-s);
-    overflow-x: scroll;
     padding: 0 var(--spacing-component-margin);
     will-change: scroll-position;
 }
